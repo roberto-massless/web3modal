@@ -180,7 +180,7 @@ export const COINBASEWALLET: IProviderInfo = {
   type: "injected",
   check: "isWalletLink",
   package: {
-    required: [["appName", "infuraId", "rpc"]]
+    required: [["appName", "infuraId", "rpc", "reloadOnDisconnect"]]
   }
 };
 
